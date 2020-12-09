@@ -1,5 +1,6 @@
 package com.example.jenkins.jenkinsexample;
 
+import org.apache.tomcat.util.log.SystemLogHandler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +18,9 @@ public class JenkinsSpringBootExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsSpringBootExampleApplication.class, args);
+
+		System.out.println("WELCOME");
+
 	}
 
 }
