@@ -12,7 +12,7 @@ public class JenkinsSpringBootExampleApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World Spring Boot! it's Pooja";
+		return "Hello World Spring Boot! it's Pooja.  Project of maven and jenkins.";
 	}
 
 	public static void main(String[] args) {
